@@ -1,19 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// Import milligram and route
 import "milligram";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-//////////
-import App from "./App";
+import { AppState } from "./AppState";
+import { App } from "./components/App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <Router>
-    <React.StrictMode>
-      <Route path="/" component={App}/>
-    </React.StrictMode>
-  </Router>,
+  <AppState>
+    <Router>
+      <React.StrictMode>
+        <Route path="/" component={App} />
+      </React.StrictMode>
+    </Router>
+  </AppState>,
   document.getElementById("root")
 );
 
