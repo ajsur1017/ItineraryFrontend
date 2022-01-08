@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 import { useAppState } from "../AppState";
+import Hamburger from "./Hamburger";
 
 const h1 = {
     display: "flex",
@@ -14,6 +15,7 @@ const Nav = (props) => {
     const { state, dispatch } = useAppState()
     return <header>
         <h1 style={h1}>Itinerary Planner</h1>
+        <Hamburger/>
         <nav>
             <Link to="/"><div>Home</div></Link>
             <Link to="/dashboard"><div>Your Day</div></Link>
