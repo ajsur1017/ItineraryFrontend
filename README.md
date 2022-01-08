@@ -1,3 +1,15 @@
+# Brief Discription of this Application
+This project is a simple application that helps you stay organized.
+## Technologies Used:
+- HTML/CSS
+- Ruby on Rails
+- ReactJS
+- MilligramCSS
+## Backend
+- Backend is live and hosted on heroku.com @ https://itineraryapi.herokuapp.com/
+## Frontend
+- Frontend is live and host on netlify.com @ https://itinerary-day-planner.netlify.app/home/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
