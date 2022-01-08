@@ -3,13 +3,16 @@ const h1 = {
     display: "flex",
     justifyContent: "space-around",
     textAlign: "center",
-    margin: "10px"
+    margin: "10px",
+    color: "black",
+    fontSize: "60px"
 };
 const div = {
     display: "flex",
     justifyContent: "space-around",
     textAlign: "center",
-
+    color: "black",
+    fontSize: "40px"
     
 }
 const Home = (props) => {
